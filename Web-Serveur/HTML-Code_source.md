@@ -1,24 +1,23 @@
-# SQL Injection - Bypass Login
+# HTML - Code source
 
 ## 📌 Description du challenge
-Ce challenge consiste à contourner un formulaire de connexion via une injection SQL.
+Ce challenge consiste à analyser le code source HTML d’une page web pour y trouver un mot de passe caché. 
 
 ## 🚀 Méthode d'attaque
-- Injection `' OR 1=1 --` dans le champ identifiant.
-
-![Injection en action](images/sql_bypass.png)
+1. **Accéder à la page web** et ouvrir l'outil d'inspection (`Ctrl + U` ou `F12 > Inspecter l'élément`).  
+2. **Chercher les champs sensibles** : analyser les balises `<input>`, `<script>`, `<meta>`, etc.  
+3. **Trouver le mot de passe** dans un commentaire, un script JavaScript ou une variable en clair.  
 
 ## 🔍 Analyse Blue Team
 ### 🔹 Détection :
-- Logs montrant des requêtes suspectes (`' OR 1=1 --`).
-- Alertes sur plusieurs tentatives de connexion échouées.
-
-![Log d'attaque détecté](images/sql_alert_log.png)
+- Effectuer des scans automatiques du code source avec des outils comme Burp Suite ou ZAP.
+- Surveiller les logs d'accès pour détecter des comportements suspects (ex : ouverture répétée du code source).
 
 ### 🔹 Prévention :
-- Utilisation de requêtes préparées.
-- Activation d’un **WAF** pour bloquer les patterns d’injection.
+- Ne jamais stocker d'informations sensibles en clair dans le HTML.
+- Supprimer les commentaires contenant des mots de passe avant la mise en production.
 
 ### 🔹 Réaction :
-- Blocage automatique après X tentatives.
-- Investigation des logs pour voir s’il y a d’autres signes d’intrusion.
+- Retirer immédiatement le mot de passe exposé et forcer une mise à jour.
+- Notifier les administrateurs système et imposer un changement de mot de passe.
+- Effectuer un audit de sécurité pour éviter que ce type d’erreur ne se reproduise.

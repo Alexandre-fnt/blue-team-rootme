@@ -13,7 +13,7 @@ L'application refuse l'accès si le User-Agent ne correspond pas à celui d'un a
 ```
 
 (Le mot de passe a été flouté pour éviter la divulgation de la réponse.)
-<img src="../Images/http-user-agent-flou.png" alt="Challenge HTTP User-Agent" width="50%">
+<img src="../Images/http-user-agent-flou.png" alt="Challenge HTTP User-Agent" width="70%">
 
 
 ## 🔍 Analyse Blue Team  

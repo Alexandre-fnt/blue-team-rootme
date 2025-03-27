@@ -13,7 +13,7 @@ Nous avons remarqué que l'application web se base uniquement sur l'adresse IP d
 4. Vérifier si la réponse contient un message de validation.  
 ```
 (Le mot de passe a été flouté pour éviter la divulgation de la réponse.)
-![Challenge HTTP User-Agent](../Images/http-user-agent-blurred.png)
+![Challenge HTTP User-Agent](../Images/http-user-agent-flou.png)
 
 ## 🔍 Analyse Blue Team  
 

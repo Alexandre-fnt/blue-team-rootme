@@ -12,6 +12,7 @@ Nous avons remarqué que l'application web se base uniquement sur l'adresse IP d
 3. Envoyer la requête au serveur et récupérer la réponse.  
 4. Vérifier si la réponse contient un message de validation.  
 ```
+![Challenge HTTP User-Agent](../Images/http-user-agent-blurred.png)
 
 ## 🔍 Analyse Blue Team  
 

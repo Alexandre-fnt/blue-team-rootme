@@ -30,7 +30,6 @@ Comment réagir efficacement si une attaque de ce type est détectée.
 Les fichiers .md incluent des captures d'écran ou des images pour mieux illustrer les attaques et leur impact. Ces images sont stockées dans le dossier Images/ et sont parfois floutées pour éviter de divulguer directement les solutions.
 
 
-##### 📢 À propos
+##### ⚠️ À propos
 
-Ce projet est conçu pour aider les professionnels de la cybersécurité à améliorer leur compréhension des attaques et renforcer leurs compétences en détection, prévention et réaction aux menaces.
-
+Les informations contenues dans ce dépôt ne sont pas garanties comme étant 100 % exactes. Des erreurs peuvent s'être glissées dans les explications ou les analyses. Si tu remarques une erreur ou une imprécision, n'hésite pas à me contacter par mail : ecajalexandre@gmail.com.

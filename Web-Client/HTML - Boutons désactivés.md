@@ -5,7 +5,7 @@ Un formulaire est présent sur la page, mais il est impossible d’interagir ave
 1. **Inspection du code source** :  
    - Ouvrir les outils de développement du navigateur (`F12` ou `Ctrl + Shift + I`).
    - Localiser les champs d’entrée désactivés (`disabled`).
-<img src="../Images/html-boutons-desactives.png" alt="Challenge HTML Boutons-désactivés" width="70%">   
+<img src="../Images/html-boutons-desactives.png" alt="Challenge HTML Boutons-désactivés" width="40%">   
 
 2. **Modification du code HTML** :  
    - Supprimer l’attribut `disabled` dans le code HTML.

@@ -21,6 +21,7 @@ L'analyse du comportement du bouton "login" révèle une fonction JavaScript app
 - Une solution de monitoring front-end ou un WAF avancé pourrait détecter des comportements suspects liés à la console du navigateur.
 
 - Des outils comme Content Security Policy (CSP) reporting peuvent détecter des tentatives d’exécution JavaScript non autorisées.
+
 ### 🔹 Prévention :
 
 - Ne jamais hardcoder de secrets dans le code JavaScript côté client.
@@ -32,4 +33,13 @@ L'analyse du comportement du bouton "login" révèle une fonction JavaScript app
 - Ajouter une Content Security Policy (CSP) stricte pour limiter l’exécution de code malicieux.
 
 - Désactiver l'accès à la console JS pour les utilisateurs non autorisés via des scripts de contrôle.
+
 ### 🔹 Réaction :
+
+- Si une fuite de credentials est suspectée, changer immédiatement les identifiants.
+
+- Implémenter une authentification sécurisée côté serveur.
+
+- Auditer le code source pour s'assurer qu'aucune autre fonction ou variable ne contient des données sensibles côté client.
+
+- Communiquer avec les développeurs pour former à la sécurité des scripts frontend.

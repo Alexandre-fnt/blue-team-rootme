@@ -1,4 +1,4 @@
-<h2 style="color: #007acc;">📌 Description du challenge</h2>
+## 📌 Description du challenge
 
 Ce challenge propose une page web contenant un champ de mot de passe via une fenêtre pop-up JavaScript, avec une vérification du mot de passe dans le code source.
 

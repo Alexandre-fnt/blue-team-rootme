@@ -1,4 +1,4 @@
-## 📌 Description du challenge  
+<h2 style="color: #007acc;">📌 Description du challenge</h2>
 
 Ce challenge propose une page web affichant une fenêtre pop-up demandant un identifiant et un mot de passe.
 

@@ -1,11 +1,11 @@
-## 📌 DESCRIPTION DU CHALLENGE
+## 📌 Description du challenge
 
 
 Ce challenge propose une page web qui affiche une pop-up demandant un mot de passe.
 
 ---
 
-## 🚀 MÉTHODE D'ATTAQUE
+## 🚀 Méthode d'attaque
 
 1. **Lancement du challenge** : une fenêtre `prompt()` apparaît pour entrer le mot de passe.
 2. **Affichage du code source** : clic droit > "Afficher le code source de la page".
@@ -19,18 +19,18 @@ Ce challenge propose une page web qui affiche une pop-up demandant un mot de pas
 
 ---
 
-## 🔍 ANALYSE BLUE TEAM
+## 🔍 Analyse blue team
 
-### 🔹 DÉTECTION :
+### 🔹 Détection :
 - Surveiller les accès à des fichiers JavaScript contenant des données encodées ou obfusquées.
 - Analyser les logs d’accès avec des outils de SIEM pour repérer les tentatives d’automatisation ou les utilisateurs inspectant trop souvent le code source.
 
-### 🔹 PRÉVENTION :
+### 🔹 Prévention :
 - Ne jamais inclure de secrets (même encodés) dans du JavaScript côté client.
 - Implémenter l’authentification via une API sécurisée côté serveur.
 - Limiter l’accès aux ressources critiques à l’aide d’un système de session et de token.
 
-### 🔹 RÉACTION :
+### 🔹 Réaction :
 - Revoir les développements contenant du JavaScript sensible.
 - Avertir les développeurs et renforcer les revues de code sur la logique d’authentification.
 - Obfusquer le code JavaScript uniquement pour retarder l’analyse, mais ne jamais y stocker d’information critique.

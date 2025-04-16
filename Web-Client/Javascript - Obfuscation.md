@@ -2,7 +2,6 @@
 
 
 Ce challenge propose une page web qui affiche une pop-up demandant un mot de passe.
-
 ---
 
 ## 🚀 Méthode d'attaque

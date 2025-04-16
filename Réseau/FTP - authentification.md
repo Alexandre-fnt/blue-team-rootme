@@ -1,7 +1,4 @@
 ## 📌 Description du challenge
-**Nom :** FTP - Authentification  
-**Catégorie :** Réseau  
-**Difficulté estimée :** Facile
 
 Ce challenge repose sur l’analyse d’un échange FTP non chiffré capturé dans un fichier réseau. L’objectif est de retrouver le mot de passe utilisé par l’utilisateur.
 

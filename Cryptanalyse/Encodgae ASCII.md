@@ -1,4 +1,4 @@
-## 📌 Description du challenge
+## Description du challenge
 
 **Nom :** Encodage ASCII
 **Catégorie :** Cryptanalyse
@@ -8,7 +8,7 @@ Ce challenge consiste à décoder un message chiffré en ASCII hexadécimal afin
 
 ---
 
-## 🚀 Méthode d'attaque
+## Méthode d'attaque
 
 1. **Analyse de l’énoncé :** il indique que le message est encodé en ASCII hexadécimal.
 2. **Utilisation d’un outil en ligne :**
@@ -19,7 +19,7 @@ Ce challenge consiste à décoder un message chiffré en ASCII hexadécimal afin
 
 ---
 
-## 🔍 Analyse Blue Team
+## Analyse Blue Team
 
 ### 🔹 Détection :
 

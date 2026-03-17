@@ -1,10 +1,10 @@
-## 📌 Description du challenge
+## Description du challenge
 
 Ce challenge repose sur la mauvaise configuration d’un serveur HTTP laissant visible l’arborescence de ses répertoires. L’objectif est de trouver un fichier contenant le flag en explorant l’index public des fichiers.
 
 ---
 
-## 🚀 Méthode d'attaque
+## Méthode d'attaque
 
 1. **Page principale vide :** aucun champ ou contenu utile visible.
 2. **Inspection du code source :**
@@ -20,7 +20,7 @@ Ce challenge repose sur la mauvaise configuration d’un serveur HTTP laissant v
 
 ---
 
-## 🔍 Analyse Blue Team
+## Analyse Blue Team
 ### 🔹 Détection :
 - Surveillance des requêtes HTTP vers des chemins non documentés comme `/admin/` ou `/backup/`.
 - Alertes sur les accès à des ressources sensibles ou peu communes.

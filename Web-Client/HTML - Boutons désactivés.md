@@ -1,7 +1,7 @@
-## 📌 Description du challenge
+## Description du challenge
 Un formulaire est présent sur la page, mais il est impossible d’interagir avec les champs d’entrée. Le but est de trouver un moyen de contourner cette restriction.
 
-## 🚀 Méthode d'attaque
+## Méthode d'attaque
 1. **Inspection du code source** :  
    - Ouvrir les outils de développement du navigateur (`F12` ou `Ctrl + Shift + I`).
    - Localiser les champs d’entrée désactivés (`disabled`).
@@ -11,7 +11,7 @@ Un formulaire est présent sur la page, mais il est impossible d’interagir ave
    - Supprimer l’attribut `disabled` dans le code HTML.
    - Valider le formulaire avec n’importe quelle entrée.
 
-## 🔍 Analyse Blue Team
+## Analyse Blue Team
 ### 🔹 Détection :
 - Surveiller les modifications DOM effectuées via les outils de développement.
 - Activer des alertes en cas de soumission suspecte de formulaire désactivé.

@@ -1,10 +1,10 @@
-## 📌 Description du challenge
+## Description du challenge
 
 Ce challenge consiste à analyser une capture réseau d’un échange HTTP chiffré via SSL/TLS. L’objectif est de récupérer les informations échangées en clair en déchiffrant le trafic à l’aide d’une clé privée fournie.
 
 ---
 
-## 🚀 Méthode d'attaque
+## Méthode d'attaque
 
 1. **Ouverture de la capture Wireshark** : on observe du trafic SSL/TLS (port 443).
 2. **Trafic chiffré** : les échanges HTTP sont invisibles par défaut.
@@ -18,7 +18,7 @@ Ce challenge consiste à analyser une capture réseau d’un échange HTTP chiff
 
 ---
 
-## 🔍 Analyse Blue Team
+## Analyse Blue Team
 ### 🔹 Détection :
 - Analyse réseau montrant un trafic TLS pouvant indiquer une compromission si la clé privée fuite.
 - Surveillance des téléchargements ou accès à des fichiers contenant des clés privées.

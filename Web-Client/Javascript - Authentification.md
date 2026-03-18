@@ -1,11 +1,11 @@
-## 📌 Description du challenge
+## Description du challenge
 
 Ce challenge présente une page d'authentification classique avec un formulaire HTML. L'objectif est de retrouver le login et le mot de passe permettant de s'authentifier, mais aucune information n'est directement visible.  
 L'analyse du comportement du bouton "login" révèle une fonction JavaScript appelée `Login()` contenant les identifiants en clair.
 
 ---
 
-## 🚀 Méthode d'attaque
+## Méthode d'attaque
 
 1. **Inspection du code HTML** via l'outil développeur du navigateur (F12).
 2. Observation que le bouton d'authentification appelle une fonction JavaScript nommée `Login()`.
@@ -13,7 +13,7 @@ L'analyse du comportement du bouton "login" révèle une fonction JavaScript app
    ```js
    alert(Login)
 
-## 🔍 Analyse Blue Team
+## Analyse Blue Team
 ### 🔹 Détection :
 
 - Sur un site réel, cette attaque ne laisserait que très peu de traces côté serveur.

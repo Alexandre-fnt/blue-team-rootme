@@ -1,10 +1,10 @@
-## 📌 Description du challenge
+## Description du challenge
 
 Ce challenge repose sur l’analyse d’un échange Telnet non chiffré capturé dans un fichier réseau. L’objectif est de retrouver le mot de passe utilisé par l’utilisateur.
 
 ---
 
-## 🚀 Méthode d'attaque
+## Méthode d'attaque
 
 1. **Ouverture de la capture Wireshark** : le fichier contient une communication entre un client et un serveur Telnet.
 2. **Protocole TCP** : comme Telnet ne chiffre rien, les identifiants passent en clair.
@@ -17,7 +17,7 @@ Ce challenge repose sur l’analyse d’un échange Telnet non chiffré capturé
 
 ---
 
-## 🔍 Analyse Blue Team
+## Analyse Blue Team
 ### 🔹 Détection :
 - Analyse des flux réseau montrant une connexion en Telnet.
 - Détection de credentials transmis en clair via IDS (Snort, Suricata).

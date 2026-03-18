@@ -1,11 +1,11 @@
-## 📌 Description du challenge  
+## Description du challenge  
 Ce challenge consiste à contourner un filtrage d’IP sur un intranet restreint. L’accès est refusé aux utilisateurs extérieurs au réseau local, sauf authentification.  
 
-## 🚀 Méthode d'attaque  
+## Méthode d'attaque  
 Nous avons remarqué que l'application web se base uniquement sur l'adresse IP de l'utilisateur pour restreindre l'accès. En modifiant une requête HTTP et en y ajoutant une adresse IP interne dans un champ spécifique, nous avons pu contourner la restriction et obtenir la validation.  
 
 
-### 📜 Pseudo-code de l'attaque 
+### Pseudo-code de l'attaque 
 ``` 
 1. Ouvrir une connexion HTTP vers l’URL cible.  
 2. Ajouter un en-tête HTTP spécifique contenant une adresse IP interne (ex. `10.0.0.1`).  

@@ -1,10 +1,10 @@
-## 📌 Challenge : HTTP User-Agent  
+## Challenge : HTTP User-Agent  
 Ce challenge consiste à contourner une restriction basée sur l'User-Agent du navigateur.  
 
-## 🚀 Méthode d'attaque  
+## Méthode d'attaque  
 L'application refuse l'accès si le User-Agent ne correspond pas à celui d'un administrateur. En modifiant ce dernier, nous obtenons une réponse contenant un mot de passe.  
 
-### 📜 Pseudo-code de l'attaque  
+### Pseudo-code de l'attaque  
 ```plaintext
 1. Effectuer une requête HTTP vers l’URL cible.  
 2. Spécifier un User-Agent particulier (ex. "admin").  
@@ -16,7 +16,7 @@ L'application refuse l'accès si le User-Agent ne correspond pas à celui d'un a
 <img src="../Images/http-user-agent-flou.png" alt="Challenge HTTP User-Agent" width="70%">
 
 
-## 🔍 Analyse Blue Team  
+## Analyse Blue Team  
 
 ### 🔹 Détection :  
 - Surveiller les requêtes avec des User-Agents inhabituels dans les logs du serveur. 

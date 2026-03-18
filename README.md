@@ -8,7 +8,7 @@ Ce projet vise à documenter et analyser différents challenges de la plateforme
 
 Chaque challenge est documenté dans un fichier .md et suit la structure suivante :
 ```
-## 📌 Description du challenge
+## Description du challenge
 Brève explication de l'objectif du challenge.
 
 ## 🚀 Méthode d'attaque
